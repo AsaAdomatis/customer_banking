@@ -35,13 +35,13 @@ def main():
 
     # Prompt the user to set the CD balance, interest rate, and months for the CD account.
     # ADD YOUR CODE HERE
-    cd_balance = input("Please enter your current savings balance: ")
+    cd_balance = input("Please enter your current CD balance: ")
     cd_balance = float(cd_balance)
     
-    cd_interest = input("Please enter your current savings interest: ")
+    cd_interest = input("Please enter your current CD interest: ")
     cd_interest = float(cd_interest)
 
-    cd_maturity = input("Please enter the amount of months you will be saving for: ")
+    cd_maturity = input("Please enter the amount of months you will be using the CD for: ")
     cd_maturity = int(cd_maturity)
 
     # Call the create_cd_account function and pass the variables from the user.
